@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GlyphCode | Rudra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <h1>Rudra</h1>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="achievements.html">Achievements</a></li>
+    <li><a href="hobbies.html">Hobbies</a></li>
+    <li><a href="glyphcode.html">GlyphCode</a></li>
+  </ul>
+</nav>
+
+<section class="hero glyph-hero">
+  <h2>✍️ GlyphCode</h2>
+  <p>A Personal Symbolic Language Created by Rudra</p>
+</section>
+
+<!-- Academic Section -->
+<section class="section">
+  <h3>🧠 Academic Innovation</h3>
+  <div class="card-container">
+    <div class="card">
+      <h4>Custom Alphabet</h4>
+      <p>GlyphCode represents A–Z using specially designed symbolic characters.</p>
+    </div>
+
+    <div class="card">
+      <h4>Structured System</h4>
+      <p>Each symbol is intentionally chosen to visually match the feeling of its letter.</p>
+    </div>
+
+    <div class="card">
+      <h4>Creative Linguistics</h4>
+      <p>This system demonstrates symbolic abstraction and independent script design.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Secret Code Section -->
+<section class="section dark-section">
+  <h3>🔐 Secret Encoded Language</h3>
+  <div class="card-container">
+    <div class="card">
+      <h4>Encrypted Writing</h4>
+      <p>|{ ₹ _| Π § |- |_|</p>
+      <p><em>Only those who know the key can decode it.</em></p>
+    </div>
+
+    <div class="card">
+      <h4>Private Communication</h4>
+      <p>GlyphCode can be used as a private symbolic writing method.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Futuristic Section -->
+<section class="section">
+  <h3>🌌 Futuristic Script</h3>
+  <div class="card-container">
+    <div class="card">
+      <h4>Alien Aesthetic</h4>
+      <p>Symbols like ₹ Π § ¶ ∆ create a futuristic visual language.</p>
+    </div>
+
+    <div class="card">
+      <h4>Visual Identity</h4>
+      <p>GlyphCode looks like it belongs in a sci-fi civilization.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Royal Section -->
+<section class="section royal">
+  <h3>👑 Royal Language</h3>
+  <div class="card-container">
+    <div class="card">
+      <h4>Personal Creation</h4>
+      <p>This is not borrowed. It is invented and owned by me.</p>
+    </div>
+
+    <div class="card">
+      <h4>Legacy System</h4>
+      <p>GlyphCode represents my creativity and original thinking.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Translator -->
+<section class="section">
+  <h3>🔄 Mini Translator</h3>
+
+  <div class="translator">
+    <input type="text" id="inputText" placeholder="Type something...">
+    <button onclick="convert()">Convert</button>
+    <p id="output"></p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Rudra Makodiya | Creator of GlyphCode
+</footer>
+
+<script>
+function convert() {
+  let text = document.getElementById("inputText").value;
+  let result = text
+    .replace(/a/gi, "@")
+    .replace(/r/gi, "₹")
+    .replace(/l/gi, "|_")
+    .replace(/p/gi, "Π")
+    .replace(/s/gi, "§");
+
+  document.getElementById("output").innerText = result;
+}
+</script>
+
+</body>
+</html>
